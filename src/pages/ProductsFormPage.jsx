@@ -6,7 +6,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { IoBagAdd, IoCloseSharp } from "react-icons/io5";
 
 function ProductsFormPage() {
-    const server = 'http://localhost:4000/img/'
+    const server = import.meta.env.VITE_BASE_URL+'/img/'
     const {register,handleSubmit, control, setValue, formState:{errors}} = useForm({
         defaultValues:{
             name:'',

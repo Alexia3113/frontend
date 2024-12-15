@@ -6,7 +6,7 @@ import { IoTrashBinSharp, IoPencilSharp } from "react-icons/io5";
 function ProductCard({product}) {
     const {deleteProduct} = useProducts();
 
-    const server ='http://localhost:4000/img/'
+    const server = import.meta.env.VITE_BASE_URL+'/img/'
     return (
         <div className="bg-zinc-800 max-w-md w-full p-10 rounded-sm">
             <header className="flex justify-between">
