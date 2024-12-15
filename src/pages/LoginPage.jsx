@@ -79,7 +79,7 @@ function LoginPage() {
                 <IoLogIn size={30}/>
               </button>
 
-              <ReCaptcha sitekey='6Lfg4psqAAAAADsokyG8l3uQgaUmpmjtSQOvD8Zk'
+              <ReCaptcha sitekey='6LcqG5wqAAAAAKUIB8qZ5CC9Ql74lVVrSolTd5KT'
                         onChange={(value)=> setCaptchaValue(value)} />
           </form>
           <div className='flex gap-x-2 justify-between pt-5 mt-5'>

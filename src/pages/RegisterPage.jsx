@@ -85,7 +85,7 @@ function RegisterPage() {
                 <button className='bg-zinc-700 px-3 py-3 my-3 rounded-md'
                         type="submit" disabled={!captchaValue}><IoPersonAdd size={30} />
                 </button>
-                <ReCaptcha sitekey='6Lfg4psqAAAAADsokyG8l3uQgaUmpmjtSQOvD8Zk'
+                <ReCaptcha sitekey='6LcqG5wqAAAAAKUIB8qZ5CC9Ql74lVVrSolTd5KT'
               onChange={(value)=> setCaptchaValue(value)} />
                 
             </form>
